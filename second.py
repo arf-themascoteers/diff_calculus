@@ -34,5 +34,6 @@ x = x[1:-2]
 d2y_dx2 = d2y_dx2[1:-2]
 d2y_dx2 = np.round(d2y_dx2,5)
 plt.plot(x, d2y_dx2)
+plt.show()
 
 print(d2y_dx2)
